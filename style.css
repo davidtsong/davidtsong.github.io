@@ -1,0 +1,32 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400';
+
+body{
+	margin:0 auto;
+	max-width: 50em;
+	font-family: "Roboto", "Helvetica";
+	line-height: 1em;
+	padding:4em 1em;
+	color:#555;
+}
+
+h1,h2{
+	margin-top:1em;
+	padding-top:1em;
+}
+h1,h2, strong{
+	color:#212121;
+}
+pre{
+	padding: 1em;
+}
+a{
+	color:#4CAF50;
+}
+
+ul{
+	list-style: none;
+}
+ul > li{
+		line-height: .85em;
+		padding-top:1em;
+}
