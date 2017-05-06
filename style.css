@@ -1,17 +1,49 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300,400';
 body{
 	margin:0;
+	padding: 0;
 	font-family: "montserrat", "Helvetica";
-	line-height: 1em;
-	padding:2em 1em;
 	color:#555;
+
 }
-.intro{
-	margin: 0 auto;
-	max-width:60em;
+.container{
+	padding: 4em 10%;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	grid-template-areas:
+	"intro-title intro-photo"
+	"intro-bottom intro-photo"
+
+}
+.intro-title{
+	grid-area:intro-title;
+	align-self: center;
+  justify-self: center;
+
+}
+.intro-bottom
+{
+	grid-area:intro-bottom;
+	align-self: center;
+  justify-self: center;
+
+}
+.intro-photo{
+	grid-area:intro-photo;
+	text-align: center;
+	display: block;
+}
+.intro-photo img{
+	max-width: 50%;
+	max-height: 50%;
+	border-radius: 50%;
+	position: relative;
+  top: 50%;
+	object-fit: cover;
+  transform: translateY(-50%);
 }
 .intro-desc{
-	colorL#cba400;
+	color:#cba400;
 }
 h1,h2{
 	padding-top:1em;
@@ -31,7 +63,7 @@ pre{
 	text-decoration: none;
 	font-weight: 400;
 }
-.links ul{
+.intro-bottom ul{
 	list-style: none;
 	padding: 0;
 }
@@ -52,8 +84,21 @@ i{
 	color:#cba400;
 }
 
-@media only screen and (max-width: 500px) {
-	.intro{
+@media only screen and (max-width: 800px) {
+
+	.container{
+		align-content: center;
+		padding: 2em 10%;
 		text-align: center;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap:2em;
+		grid-template-areas:
+		"intro-title" "intro-photo" "intro-bottom";
+	}
+
+	.intro-photo img{
+		min-height: 20em;
+		border-radius: 50%;
 	}
 }
