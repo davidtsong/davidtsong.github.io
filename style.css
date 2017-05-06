@@ -88,7 +88,7 @@ i{
 
 	.container{
 		align-content: center;
-		padding: 2em 10%;
+		padding: 2em 5%;
 		text-align: center;
 		display: grid;
 		grid-template-columns: 1fr;
@@ -96,9 +96,11 @@ i{
 		grid-template-areas:
 		"intro-title" "intro-photo" "intro-bottom";
 	}
-
+	.intro-photo{
+		min-height: 30em;
+	}
 	.intro-photo img{
-		min-height: 20em;
+
 		border-radius: 50%;
 	}
 }
