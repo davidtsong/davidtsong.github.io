@@ -1,0 +1,42 @@
+@import url("https://use.typekit.net/ged1fms.css");
+body{
+	margin:0;
+	padding:3rem 0 0 0;
+	color:#212121;
+
+	text-align:center;
+}
+h1,h2,h3,h4,h5,h6
+{
+	font-family: "futura-pt", sans-serif;
+	font-style:normal;
+	font-weight:600;
+}
+p{
+	font-family:"rooney-sans";
+	font-style:normal;
+	font-weight:200;
+	font-size:2rem;
+	color:#555;
+}
+.center
+{
+	text-align:center;
+}
+.profile-image
+{
+	max-width: 50%;
+	max-height: 50%;
+	padding:2em;
+	border-radius: 50%;
+	position: relative;
+	object-fit: cover;
+}
+.row
+{
+	margin:1rem 0 2em 0;
+}
+.social
+{
+	font-size:5rem;
+}
