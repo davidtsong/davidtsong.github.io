@@ -439,7 +439,13 @@ input[type='radio'] {
     padding: 0 1.0rem;
   }
 }
-
+@media(max-width: 40rem)
+{
+  h1,h2
+  {
+    font-size:3rem;
+  }
+}
 a {
   color: #C41E3A;
   text-decoration: none;
@@ -448,8 +454,6 @@ transition-duration: .5s;
 
 a:focus, a:hover {
   color: #e62545;
-
-
 }
 
 dl,
@@ -549,7 +553,7 @@ h6 {
   font-weight: 300;
   letter-spacing: -.1rem;
   margin-bottom: 2.0rem;
-  margin-top: 0;
+  margin-top: 0.25rem;
 }
 
 h1 {
@@ -602,5 +606,3 @@ img {
 .float-right {
   float: right;
 }
-
-/*# sourceMappingURL=milligram.css.map */
