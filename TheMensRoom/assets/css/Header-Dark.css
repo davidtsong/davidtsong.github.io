@@ -120,9 +120,9 @@
 }
 
 .hero-title {
-  color:#df4a54;;
-  font-family:'Bitter', serif;
-  font-size:4.5rem;
+  color:#df4a54;
+  letter-spacing:.1rem;
+  font-size:3.5rem;
 }
 .hero-desc, .hero-tagline
 {

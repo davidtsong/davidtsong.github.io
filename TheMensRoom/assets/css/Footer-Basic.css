@@ -52,13 +52,9 @@
 }
 
 .footer-basic .copyright {
-  margin-top:15px;
+  margin-top:5%;
   text-align:center;
   font-size:13px;
   color:#aaa;
   margin-bottom:0;
-}
-.footer-row
-{
-  min-height:100%;
 }
