@@ -1,0 +1,13 @@
+em {
+  text-align: center;
+}
+.hero-desc a, .copyright a
+{
+  color:#e5e6e3;
+}
+
+.hero-desc a:hover, .copyright a:hover
+{
+  color:#e5e6e3;
+  text-decoration:none;
+}
