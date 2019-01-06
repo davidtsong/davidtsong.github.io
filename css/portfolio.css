@@ -3,12 +3,17 @@
   border:1px solid black;
 } */
  @import url("https://use.typekit.net/ged1fms.css");
-.fa
+.fa, .fab
 {
   color:#001f3f;
 }
 .card{
   margin:2.5% 0 2.5% 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.card-body a
+{
+  background-color:none;
 }
 .row
 {
@@ -22,7 +27,7 @@ h1, h2, h3, h4, h5, h6,
   color: #212529;
 }
 .header-text{
-  padding-top:10%;
+  padding-top:2.5%;
 }
 .header-signup-title
 {
@@ -39,9 +44,18 @@ font-weight: 400;
 {
    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-.header-signup
+/* .header-signup
 {
-  padding-top:20%;
+
+  max-width:50%;
+  text-align:center;
+  display: flex;
+  text-align:center;
+} */
+.signup-form
+{
+  max-width:50%;
+  margin: 5% auto;
 }
 .header{
   padding: 0 5% 0 5%;
@@ -50,6 +64,19 @@ font-weight: 400;
   justify-content: center;
   align-items: center;
   text-align:center;
+
+}
+.header video
+{
+    max-width:360px;
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+}
+.header-profile
+{
+  max-width:125px;
+  border-radius:50%;
+
+  margin-bottom:10%;
 }
 .wrapper
 {
@@ -62,7 +89,18 @@ font-weight: 400;
   align-items: center;
   text-align:center;
 }
-
+.btn-info
+{
+  background-color:#212529;
+  border-color:#212529;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+}
+.btn-info:hover
+{
+  border-color:#1d2125;
+  background-color:#1d2125;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 .portfolio
 {
   padding-top:10%;
