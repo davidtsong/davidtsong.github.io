@@ -66,10 +66,16 @@ font-weight: 400;
   text-align:center;
 
 }
+@media(max-width:768px)
+{
+  .header video
+  {
+    display:none;
+  }
+}
 .header video
 {
     max-width:360px;
-    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
 }
 .header-profile
 {
