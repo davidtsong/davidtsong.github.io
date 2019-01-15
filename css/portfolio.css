@@ -54,9 +54,10 @@ font-weight: 400;
 } */
 .signup-form
 {
-  max-width:50%;
+  max-width:60%;
   margin: 5% auto;
 }
+
 .header{
   padding: 0 5% 0 5%;
   min-height:100vh;
